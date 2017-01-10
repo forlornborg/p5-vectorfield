@@ -1,8 +1,8 @@
 console.log("main.js loaded");
-var canvasWidth = 800;
-var canvasHeight = 800;
-var numVectHoriz = 300;
-var numVectVert = 300;
+var canvasWidth = innerWidth;
+var canvasHeight = innerHeight;
+var numVectHoriz = 500;
+var numVectVert = 500;
 var w = canvasWidth/numVectHoriz;
 var h = canvasHeight/numVectVert;
 var tx;
